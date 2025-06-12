@@ -1,21 +1,43 @@
-.post-container {
-  padding: 3rem 2rem;
-  max-width: 800px;
-  margin: auto;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+.post-wrapper {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Georgia', serif;
 }
 
-.post-container h1 {
+.post-hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.post-title {
   font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  color: #222;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
-.post-container p {
+.post-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.post-tags {
+  margin-top: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #eef;
+  color: #336;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+  margin: 0 0.25rem;
+  font-size: 0.8rem;
+}
+
+.post-body {
+  line-height: 1.6;
   font-size: 1.1rem;
-  line-height: 1.8;
-  color: #444;
-  white-space: pre-line;
+  color: #333;
 }

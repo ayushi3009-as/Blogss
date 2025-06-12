@@ -1,17 +1,16 @@
 [
   {
-    "title": "Getting Started with Next.js",
-    "slug": "getting-started-nextjs",
-    "content": "This post explains how to get started with Next.js for static sites."
+    "title": "Wandering in the Woods",
+    "slug": "wandering-woods",
+    "content": "Today I explored the hidden trails of the forest. The smell of pine, the sound of birds...",
+    "date": "2025-06-10",
+    "tags": ["nature", "adventure", "journal"]
   },
   {
-    "title": "Why Static Sites Are Great",
-    "slug": "why-static-sites",
-    "content": "Static sites are fast, secure, and scalable. Here's why you should use them."
-  },
-  {
-    "title": "Adding Search to Static Sites",
-    "slug": "search-static-sites",
-    "content": "Implement client-side search using JavaScript on a static blog site."
+    "title": "Evening Thoughts",
+    "slug": "evening-thoughts",
+    "content": "As the sun sets, I find myself thinking about how time slows down in quiet moments.",
+    "date": "2025-06-11",
+    "tags": ["reflection", "life"]
   }
 ]
