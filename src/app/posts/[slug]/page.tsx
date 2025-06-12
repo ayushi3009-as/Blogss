@@ -2,22 +2,17 @@ import posts from '../../data/posts.json';
 import '../../../styles/Post.css';
 import { notFound } from 'next/navigation';
 
-interface Post {
-  title: string;
+type Params = {
   slug: string;
-  content: string;
-}
-
-interface SlugPageProps {
-  params: { slug: string };
-}
+};
 
 export async function generateStaticParams() {
-  return posts.map((post: Post) => ({ slug: post.slug }));
+  return posts.map((post) => ({ slug: post.slug }));
 }
 
-export default async function BlogPostPage({ params }: SlugPageProps) {
-  const post = posts.find((p: Post) => p.slug === params.slug);
+// ✅ Do NOT define custom PageProps interface, use inferred type
+export default async function Page({ params }: { params: Params }) {
+  const post = posts.find((p) => p.slug === params.slug);
 
   if (!post) return notFound();
 
