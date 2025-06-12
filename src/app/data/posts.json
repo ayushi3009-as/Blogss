@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Getting Started with Next.js",
+    "slug": "getting-started-nextjs",
+    "content": "This post explains how to get started with Next.js for static sites."
+  },
+  {
+    "title": "Why Static Sites Are Great",
+    "slug": "why-static-sites",
+    "content": "Static sites are fast, secure, and scalable. Here's why you should use them."
+  },
+  {
+    "title": "Adding Search to Static Sites",
+    "slug": "search-static-sites",
+    "content": "Implement client-side search using JavaScript on a static blog site."
+  }
+]
