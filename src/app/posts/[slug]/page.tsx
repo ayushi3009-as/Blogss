@@ -8,7 +8,7 @@ interface Post {
   content: string;
 }
 
-interface PageProps {
+interface SlugPageProps {
   params: { slug: string };
 }
 
@@ -16,7 +16,7 @@ export async function generateStaticParams() {
   return posts.map((post: Post) => ({ slug: post.slug }));
 }
 
-export default async function BlogPostPage({ params }: PageProps) {
+export default async function BlogPostPage({ params }: SlugPageProps) {
   const post = posts.find((p: Post) => p.slug === params.slug);
 
   if (!post) return notFound();
